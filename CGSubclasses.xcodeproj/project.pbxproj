@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EFE2FB518E653C7003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE2FB418E653C7003CBAFD /* Foundation.framework */; };
+		2EFE2FBA18E653C7003CBAFD /* CGSubclasses.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2EFE2FB918E653C7003CBAFD /* CGSubclasses.h */; };
+		2EFE2FC318E653C7003CBAFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE2FC218E653C7003CBAFD /* XCTest.framework */; };
+		2EFE2FC418E653C7003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE2FB418E653C7003CBAFD /* Foundation.framework */; };
+		2EFE2FC918E653C7003CBAFD /* libCGSubclasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE2FB118E653C7003CBAFD /* libCGSubclasses.a */; };
+		2EFE2FCF18E653C7003CBAFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE2FCD18E653C7003CBAFD /* InfoPlist.strings */; };
+		2EFE2FD118E653C7003CBAFD /* CGSubclassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE2FD018E653C7003CBAFD /* CGSubclassesTests.m */; };
+		2EFE2FDE18E65428003CBAFD /* CGObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE2FDB18E65428003CBAFD /* CGObject.m */; };
+		2EFE2FDF18E65428003CBAFD /* CGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE2FDD18E65428003CBAFD /* CGViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EFE2FC718E653C7003CBAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFE2FA918E653C7003CBAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFE2FB018E653C7003CBAFD;
+			remoteInfo = CGSubclasses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EFE2FAF18E653C7003CBAFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2EFE2FBA18E653C7003CBAFD /* CGSubclasses.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EFE2FB118E653C7003CBAFD /* libCGSubclasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCGSubclasses.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFE2FB418E653C7003CBAFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2EFE2FB818E653C7003CBAFD /* CGSubclasses-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGSubclasses-Prefix.pch"; sourceTree = "<group>"; };
+		2EFE2FB918E653C7003CBAFD /* CGSubclasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGSubclasses.h; sourceTree = "<group>"; };
+		2EFE2FC118E653C7003CBAFD /* CGSubclassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGSubclassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFE2FC218E653C7003CBAFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2EFE2FCC18E653C7003CBAFD /* CGSubclassesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGSubclassesTests-Info.plist"; sourceTree = "<group>"; };
+		2EFE2FCE18E653C7003CBAFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EFE2FD018E653C7003CBAFD /* CGSubclassesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGSubclassesTests.m; sourceTree = "<group>"; };
+		2EFE2FDA18E65428003CBAFD /* CGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGObject.h; sourceTree = "<group>"; };
+		2EFE2FDB18E65428003CBAFD /* CGObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGObject.m; sourceTree = "<group>"; };
+		2EFE2FDC18E65428003CBAFD /* CGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewController.h; sourceTree = "<group>"; };
+		2EFE2FDD18E65428003CBAFD /* CGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGViewController.m; sourceTree = "<group>"; };
+		2EFE301918E65572003CBAFD /* libCGReachability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCGReachability.a; path = "../CGReachability/build/Debug-iphoneos/libCGReachability.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EFE2FAE18E653C7003CBAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE2FB518E653C7003CBAFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFE2FBE18E653C7003CBAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE2FC318E653C7003CBAFD /* XCTest.framework in Frameworks */,
+				2EFE2FC918E653C7003CBAFD /* libCGSubclasses.a in Frameworks */,
+				2EFE2FC418E653C7003CBAFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EFE2FA818E653C7003CBAFD = {
+			isa = PBXGroup;
+			children = (
+				2EFE2FB618E653C7003CBAFD /* CGSubclasses */,
+				2EFE2FCA18E653C7003CBAFD /* CGSubclassesTests */,
+				2EFE2FB318E653C7003CBAFD /* Frameworks */,
+				2EFE2FB218E653C7003CBAFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EFE2FB218E653C7003CBAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE2FB118E653C7003CBAFD /* libCGSubclasses.a */,
+				2EFE2FC118E653C7003CBAFD /* CGSubclassesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EFE2FB318E653C7003CBAFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE301918E65572003CBAFD /* libCGReachability.a */,
+				2EFE2FB418E653C7003CBAFD /* Foundation.framework */,
+				2EFE2FC218E653C7003CBAFD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EFE2FB618E653C7003CBAFD /* CGSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE2FB918E653C7003CBAFD /* CGSubclasses.h */,
+				2EFE2FDA18E65428003CBAFD /* CGObject.h */,
+				2EFE2FDB18E65428003CBAFD /* CGObject.m */,
+				2EFE2FDC18E65428003CBAFD /* CGViewController.h */,
+				2EFE2FDD18E65428003CBAFD /* CGViewController.m */,
+				2EFE2FB718E653C7003CBAFD /* Supporting Files */,
+			);
+			path = CGSubclasses;
+			sourceTree = "<group>";
+		};
+		2EFE2FB718E653C7003CBAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE2FB818E653C7003CBAFD /* CGSubclasses-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EFE2FCA18E653C7003CBAFD /* CGSubclassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE2FD018E653C7003CBAFD /* CGSubclassesTests.m */,
+				2EFE2FCB18E653C7003CBAFD /* Supporting Files */,
+			);
+			path = CGSubclassesTests;
+			sourceTree = "<group>";
+		};
+		2EFE2FCB18E653C7003CBAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE2FCC18E653C7003CBAFD /* CGSubclassesTests-Info.plist */,
+				2EFE2FCD18E653C7003CBAFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EFE2FB018E653C7003CBAFD /* CGSubclasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFE2FD418E653C7003CBAFD /* Build configuration list for PBXNativeTarget "CGSubclasses" */;
+			buildPhases = (
+				2EFE2FAD18E653C7003CBAFD /* Sources */,
+				2EFE2FAE18E653C7003CBAFD /* Frameworks */,
+				2EFE2FAF18E653C7003CBAFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGSubclasses;
+			productName = CGSubclasses;
+			productReference = 2EFE2FB118E653C7003CBAFD /* libCGSubclasses.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2EFE2FC018E653C7003CBAFD /* CGSubclassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFE2FD718E653C7003CBAFD /* Build configuration list for PBXNativeTarget "CGSubclassesTests" */;
+			buildPhases = (
+				2EFE2FBD18E653C7003CBAFD /* Sources */,
+				2EFE2FBE18E653C7003CBAFD /* Frameworks */,
+				2EFE2FBF18E653C7003CBAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EFE2FC818E653C7003CBAFD /* PBXTargetDependency */,
+			);
+			name = CGSubclassesTests;
+			productName = CGSubclassesTests;
+			productReference = 2EFE2FC118E653C7003CBAFD /* CGSubclassesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EFE2FA918E653C7003CBAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Revision Works, LLC";
+			};
+			buildConfigurationList = 2EFE2FAC18E653C7003CBAFD /* Build configuration list for PBXProject "CGSubclasses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EFE2FA818E653C7003CBAFD;
+			productRefGroup = 2EFE2FB218E653C7003CBAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EFE2FB018E653C7003CBAFD /* CGSubclasses */,
+				2EFE2FC018E653C7003CBAFD /* CGSubclassesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EFE2FBF18E653C7003CBAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE2FCF18E653C7003CBAFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EFE2FAD18E653C7003CBAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE2FDF18E65428003CBAFD /* CGViewController.m in Sources */,
+				2EFE2FDE18E65428003CBAFD /* CGObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFE2FBD18E653C7003CBAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE2FD118E653C7003CBAFD /* CGSubclassesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EFE2FC818E653C7003CBAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EFE2FB018E653C7003CBAFD /* CGSubclasses */;
+			targetProxy = 2EFE2FC718E653C7003CBAFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EFE2FCD18E653C7003CBAFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EFE2FCE18E653C7003CBAFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EFE2FD218E653C7003CBAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EFE2FD318E653C7003CBAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EFE2FD518E653C7003CBAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CGSubclasses.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGSubclasses/CGSubclasses-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nbvikingsidiot001/Desktop/SourceApps/CGApplicationLibrary/CGReachability/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EFE2FD618E653C7003CBAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CGSubclasses.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGSubclasses/CGSubclasses-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nbvikingsidiot001/Desktop/SourceApps/CGApplicationLibrary/CGReachability/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2EFE2FD818E653C7003CBAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGSubclasses/CGSubclasses-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CGSubclassesTests/CGSubclassesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2EFE2FD918E653C7003CBAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGSubclasses/CGSubclasses-Prefix.pch";
+				INFOPLIST_FILE = "CGSubclassesTests/CGSubclassesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EFE2FAC18E653C7003CBAFD /* Build configuration list for PBXProject "CGSubclasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFE2FD218E653C7003CBAFD /* Debug */,
+				2EFE2FD318E653C7003CBAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFE2FD418E653C7003CBAFD /* Build configuration list for PBXNativeTarget "CGSubclasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFE2FD518E653C7003CBAFD /* Debug */,
+				2EFE2FD618E653C7003CBAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EFE2FD718E653C7003CBAFD /* Build configuration list for PBXNativeTarget "CGSubclassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFE2FD818E653C7003CBAFD /* Debug */,
+				2EFE2FD918E653C7003CBAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EFE2FA918E653C7003CBAFD /* Project object */;
+}
