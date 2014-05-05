@@ -11,7 +11,7 @@
 
 @interface CGObject : NSObject
 
-- (void)updateReachability:(CGReachability *)reachability;
+- (void)updateReachabilityStatus:(CGReachability *)reachability;
 
 @property (nonatomic, assign, readonly) BOOL offline;
 

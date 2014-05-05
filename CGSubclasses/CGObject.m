@@ -21,7 +21,7 @@
 {
     self = [super init];
     if (self) {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kCGReachabilityChangedNotification object:nil];
     }
     return self;
 }
@@ -31,7 +31,7 @@
 	CGReachability* curReach = [note object];
 	NSParameterAssert([curReach isKindOfClass:[CGReachability class]]);
 	[self updateOffline:curReach];
-    [self updateReachability:curReach];
+    [self updateReachabilityStatus:curReach];
 }
 
 - (void)updateOffline:(CGReachability *)reachability
@@ -44,7 +44,7 @@
     }
 }
 
-- (void)updateReachability:(CGReachability *)reachability
+- (void)updateReachabilityStatus:(CGReachability *)reachability
 {
     NetworkStatus netStatus = [reachability currentReachabilityStatus];
     if (netStatus == NotReachable) {
@@ -58,7 +58,7 @@
 
 - (void)dealloc
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:kReachabilityChangedNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kCGReachabilityChangedNotification object:nil];
 }
 
 @end

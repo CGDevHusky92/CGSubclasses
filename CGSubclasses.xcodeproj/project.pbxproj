@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E66FC98190DFBCA00ECBBAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E66FC97190DFBCA00ECBBAD /* UIKit.framework */; };
+		2E66FCA0190DFD0A00ECBBAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E66FC9F190DFD0A00ECBBAD /* Cocoa.framework */; };
+		2E66FCAA190DFD0A00ECBBAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E66FCA8190DFD0A00ECBBAD /* InfoPlist.strings */; };
+		2E66FCB4190DFD0A00ECBBAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE2FC218E653C7003CBAFD /* XCTest.framework */; };
+		2E66FCB5190DFD0A00ECBBAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E66FC9F190DFD0A00ECBBAD /* Cocoa.framework */; };
+		2E66FCB8190DFD0A00ECBBAD /* CGSubclassesX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E66FC9E190DFD0A00ECBBAD /* CGSubclassesX.framework */; };
+		2E66FCBE190DFD0A00ECBBAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E66FCBC190DFD0A00ECBBAD /* InfoPlist.strings */; };
+		2E66FCC0190DFD0A00ECBBAD /* CGSubclassesXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E66FCBF190DFD0A00ECBBAD /* CGSubclassesXTests.m */; };
+		2E66FCC9190DFE3A00ECBBAD /* CGSubclassesX.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E66FCAC190DFD0A00ECBBAD /* CGSubclassesX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E66FCCA190E028200ECBBAD /* NSMutableArray+GRID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5F282190DE465007D7291 /* NSMutableArray+GRID.m */; };
+		2E66FCCC190EC6C700ECBBAD /* CGSubclassesX.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E66FCAC190DFD0A00ECBBAD /* CGSubclassesX.h */; };
+		2EF5F283190DE465007D7291 /* NSMutableArray+GRID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5F282190DE465007D7291 /* NSMutableArray+GRID.m */; };
+		2EF5F2C8190DFA81007D7291 /* CGSubclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFE2FB918E653C7003CBAFD /* CGSubclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EFE2FB518E653C7003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE2FB418E653C7003CBAFD /* Foundation.framework */; };
 		2EFE2FBA18E653C7003CBAFD /* CGSubclasses.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2EFE2FB918E653C7003CBAFD /* CGSubclasses.h */; };
 		2EFE2FC318E653C7003CBAFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE2FC218E653C7003CBAFD /* XCTest.framework */; };
@@ -19,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2E66FCB6190DFD0A00ECBBAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFE2FA918E653C7003CBAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E66FC9D190DFD0A00ECBBAD;
+			remoteInfo = CGSubclassesX;
+		};
 		2EFE2FC718E653C7003CBAFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2EFE2FA918E653C7003CBAFD /* Project object */;
@@ -29,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2E66FCCB190EC6B200ECBBAD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2E66FCCC190EC6C700ECBBAD /* CGSubclassesX.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EFE2FAF18E653C7003CBAFD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,6 +72,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E66FC97190DFBCA00ECBBAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E66FC9E190DFD0A00ECBBAD /* CGSubclassesX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGSubclassesX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E66FC9F190DFD0A00ECBBAD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		2E66FCA2190DFD0A00ECBBAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E66FCA3190DFD0A00ECBBAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2E66FCA4190DFD0A00ECBBAD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2E66FCA7190DFD0A00ECBBAD /* CGSubclassesX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGSubclassesX-Info.plist"; sourceTree = "<group>"; };
+		2E66FCA9190DFD0A00ECBBAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E66FCAB190DFD0A00ECBBAD /* CGSubclassesX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGSubclassesX-Prefix.pch"; sourceTree = "<group>"; };
+		2E66FCAC190DFD0A00ECBBAD /* CGSubclassesX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CGSubclassesX.h; path = CGSubclassesX/CGSubclassesX.h; sourceTree = SOURCE_ROOT; };
+		2E66FCB3190DFD0A00ECBBAD /* CGSubclassesXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGSubclassesXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E66FCBB190DFD0A00ECBBAD /* CGSubclassesXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGSubclassesXTests-Info.plist"; sourceTree = "<group>"; };
+		2E66FCBD190DFD0A00ECBBAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E66FCBF190DFD0A00ECBBAD /* CGSubclassesXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGSubclassesXTests.m; sourceTree = "<group>"; };
+		2EF5F281190DE465007D7291 /* NSMutableArray+GRID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+GRID.h"; sourceTree = "<group>"; };
+		2EF5F282190DE465007D7291 /* NSMutableArray+GRID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+GRID.m"; sourceTree = "<group>"; };
 		2EFE2FB118E653C7003CBAFD /* libCGSubclasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCGSubclasses.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFE2FB418E653C7003CBAFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2EFE2FB818E653C7003CBAFD /* CGSubclasses-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGSubclasses-Prefix.pch"; sourceTree = "<group>"; };
@@ -59,10 +105,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2E66FC9A190DFD0A00ECBBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66FCA0190DFD0A00ECBBAD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E66FCB0190DFD0A00ECBBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66FCB8190DFD0A00ECBBAD /* CGSubclassesX.framework in Frameworks */,
+				2E66FCB5190DFD0A00ECBBAD /* Cocoa.framework in Frameworks */,
+				2E66FCB4190DFD0A00ECBBAD /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EFE2FAE18E653C7003CBAFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E66FC98190DFBCA00ECBBAD /* UIKit.framework in Frameworks */,
 				2EFE2FB518E653C7003CBAFD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,11 +145,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E66FCA1190DFD0A00ECBBAD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E66FCA2190DFD0A00ECBBAD /* Foundation.framework */,
+				2E66FCA3190DFD0A00ECBBAD /* CoreData.framework */,
+				2E66FCA4190DFD0A00ECBBAD /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2E66FCA6190DFD0A00ECBBAD /* Supporting Files X */ = {
+			isa = PBXGroup;
+			children = (
+				2E66FCA7190DFD0A00ECBBAD /* CGSubclassesX-Info.plist */,
+				2E66FCA8190DFD0A00ECBBAD /* InfoPlist.strings */,
+				2E66FCAB190DFD0A00ECBBAD /* CGSubclassesX-Prefix.pch */,
+			);
+			name = "Supporting Files X";
+			path = CGSubclassesX;
+			sourceTree = SOURCE_ROOT;
+		};
+		2E66FCB9190DFD0A00ECBBAD /* CGSubclassesXTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E66FCBF190DFD0A00ECBBAD /* CGSubclassesXTests.m */,
+				2E66FCBA190DFD0A00ECBBAD /* Supporting Files */,
+			);
+			path = CGSubclassesXTests;
+			sourceTree = "<group>";
+		};
+		2E66FCBA190DFD0A00ECBBAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E66FCBB190DFD0A00ECBBAD /* CGSubclassesXTests-Info.plist */,
+				2E66FCBC190DFD0A00ECBBAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		2EFE2FA818E653C7003CBAFD = {
 			isa = PBXGroup;
 			children = (
 				2EFE2FB618E653C7003CBAFD /* CGSubclasses */,
 				2EFE2FCA18E653C7003CBAFD /* CGSubclassesTests */,
+				2E66FCB9190DFD0A00ECBBAD /* CGSubclassesXTests */,
 				2EFE2FB318E653C7003CBAFD /* Frameworks */,
 				2EFE2FB218E653C7003CBAFD /* Products */,
 			);
@@ -95,6 +200,8 @@
 			children = (
 				2EFE2FB118E653C7003CBAFD /* libCGSubclasses.a */,
 				2EFE2FC118E653C7003CBAFD /* CGSubclassesTests.xctest */,
+				2E66FC9E190DFD0A00ECBBAD /* CGSubclassesX.framework */,
+				2E66FCB3190DFD0A00ECBBAD /* CGSubclassesXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +209,12 @@
 		2EFE2FB318E653C7003CBAFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E66FC97190DFBCA00ECBBAD /* UIKit.framework */,
 				2EFE301918E65572003CBAFD /* libCGReachability.a */,
 				2EFE2FB418E653C7003CBAFD /* Foundation.framework */,
 				2EFE2FC218E653C7003CBAFD /* XCTest.framework */,
+				2E66FC9F190DFD0A00ECBBAD /* Cocoa.framework */,
+				2E66FCA1190DFD0A00ECBBAD /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,11 +223,15 @@
 			isa = PBXGroup;
 			children = (
 				2EFE2FB918E653C7003CBAFD /* CGSubclasses.h */,
+				2E66FCAC190DFD0A00ECBBAD /* CGSubclassesX.h */,
 				2EFE2FDA18E65428003CBAFD /* CGObject.h */,
 				2EFE2FDB18E65428003CBAFD /* CGObject.m */,
 				2EFE2FDC18E65428003CBAFD /* CGViewController.h */,
 				2EFE2FDD18E65428003CBAFD /* CGViewController.m */,
+				2EF5F281190DE465007D7291 /* NSMutableArray+GRID.h */,
+				2EF5F282190DE465007D7291 /* NSMutableArray+GRID.m */,
 				2EFE2FB718E653C7003CBAFD /* Supporting Files */,
+				2E66FCA6190DFD0A00ECBBAD /* Supporting Files X */,
 			);
 			path = CGSubclasses;
 			sourceTree = "<group>";
@@ -150,7 +264,63 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2E66FC9B190DFD0A00ECBBAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66FCC9190DFE3A00ECBBAD /* CGSubclassesX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF5F2C7190DFA7B007D7291 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF5F2C8190DFA81007D7291 /* CGSubclasses.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2E66FC9D190DFD0A00ECBBAD /* CGSubclassesX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E66FCC1190DFD0A00ECBBAD /* Build configuration list for PBXNativeTarget "CGSubclassesX" */;
+			buildPhases = (
+				2E66FC99190DFD0A00ECBBAD /* Sources */,
+				2E66FC9A190DFD0A00ECBBAD /* Frameworks */,
+				2E66FC9B190DFD0A00ECBBAD /* Headers */,
+				2E66FC9C190DFD0A00ECBBAD /* Resources */,
+				2E66FCCB190EC6B200ECBBAD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGSubclassesX;
+			productName = CGSubclassesX;
+			productReference = 2E66FC9E190DFD0A00ECBBAD /* CGSubclassesX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E66FCB2190DFD0A00ECBBAD /* CGSubclassesXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E66FCC4190DFD0A00ECBBAD /* Build configuration list for PBXNativeTarget "CGSubclassesXTests" */;
+			buildPhases = (
+				2E66FCAF190DFD0A00ECBBAD /* Sources */,
+				2E66FCB0190DFD0A00ECBBAD /* Frameworks */,
+				2E66FCB1190DFD0A00ECBBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E66FCB7190DFD0A00ECBBAD /* PBXTargetDependency */,
+			);
+			name = CGSubclassesXTests;
+			productName = CGSubclassesXTests;
+			productReference = 2E66FCB3190DFD0A00ECBBAD /* CGSubclassesXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2EFE2FB018E653C7003CBAFD /* CGSubclasses */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EFE2FD418E653C7003CBAFD /* Build configuration list for PBXNativeTarget "CGSubclasses" */;
@@ -158,6 +328,7 @@
 				2EFE2FAD18E653C7003CBAFD /* Sources */,
 				2EFE2FAE18E653C7003CBAFD /* Frameworks */,
 				2EFE2FAF18E653C7003CBAFD /* CopyFiles */,
+				2EF5F2C7190DFA7B007D7291 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -194,6 +365,14 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Revision Works, LLC";
+				TargetAttributes = {
+					2E66FCB2190DFD0A00ECBBAD = {
+						TestTargetID = 2E66FC9D190DFD0A00ECBBAD;
+					};
+					2EFE2FC018E653C7003CBAFD = {
+						TestTargetID = 2E66FC9D190DFD0A00ECBBAD;
+					};
+				};
 			};
 			buildConfigurationList = 2EFE2FAC18E653C7003CBAFD /* Build configuration list for PBXProject "CGSubclasses" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,11 +388,29 @@
 			targets = (
 				2EFE2FB018E653C7003CBAFD /* CGSubclasses */,
 				2EFE2FC018E653C7003CBAFD /* CGSubclassesTests */,
+				2E66FC9D190DFD0A00ECBBAD /* CGSubclassesX */,
+				2E66FCB2190DFD0A00ECBBAD /* CGSubclassesXTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2E66FC9C190DFD0A00ECBBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66FCAA190DFD0A00ECBBAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E66FCB1190DFD0A00ECBBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66FCBE190DFD0A00ECBBAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EFE2FBF18E653C7003CBAFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,10 +422,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2E66FC99190DFD0A00ECBBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66FCCA190E028200ECBBAD /* NSMutableArray+GRID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E66FCAF190DFD0A00ECBBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66FCC0190DFD0A00ECBBAD /* CGSubclassesXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EFE2FAD18E653C7003CBAFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF5F283190DE465007D7291 /* NSMutableArray+GRID.m in Sources */,
 				2EFE2FDF18E65428003CBAFD /* CGViewController.m in Sources */,
 				2EFE2FDE18E65428003CBAFD /* CGObject.m in Sources */,
 			);
@@ -245,6 +459,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2E66FCB7190DFD0A00ECBBAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E66FC9D190DFD0A00ECBBAD /* CGSubclassesX */;
+			targetProxy = 2E66FCB6190DFD0A00ECBBAD /* PBXContainerItemProxy */;
+		};
 		2EFE2FC818E653C7003CBAFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2EFE2FB018E653C7003CBAFD /* CGSubclasses */;
@@ -253,6 +472,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2E66FCA8190DFD0A00ECBBAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E66FCA9190DFD0A00ECBBAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E66FCBC190DFD0A00ECBBAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E66FCBD190DFD0A00ECBBAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		2EFE2FCD18E653C7003CBAFD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -264,6 +499,106 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2E66FCC2190DFD0A00ECBBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGSubclassesX/CGSubclassesX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CGSubclassesX/CGSubclassesX-Info.plist";
+				INSTALL_PATH = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		2E66FCC3190DFD0A00ECBBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGSubclassesX/CGSubclassesX-Prefix.pch";
+				INFOPLIST_FILE = "CGSubclassesX/CGSubclassesX-Info.plist";
+				INSTALL_PATH = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		2E66FCC5190DFD0A00ECBBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CGSubclassesX.framework/Versions/A/CGSubclassesX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGSubclassesX/CGSubclassesX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CGSubclassesXTests/CGSubclassesXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2E66FCC6190DFD0A00ECBBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CGSubclassesX.framework/Versions/A/CGSubclassesX";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGSubclassesX/CGSubclassesX-Prefix.pch";
+				INFOPLIST_FILE = "CGSubclassesXTests/CGSubclassesXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		2EFE2FD218E653C7003CBAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -379,6 +714,7 @@
 		2EFE2FD818E653C7003CBAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CGSubclassesX.framework/Versions/A/CGSubclassesX";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -392,6 +728,7 @@
 				);
 				INFOPLIST_FILE = "CGSubclassesTests/CGSubclassesTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -399,6 +736,7 @@
 		2EFE2FD918E653C7003CBAFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CGSubclassesX.framework/Versions/A/CGSubclassesX";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -408,6 +746,7 @@
 				GCC_PREFIX_HEADER = "CGSubclasses/CGSubclasses-Prefix.pch";
 				INFOPLIST_FILE = "CGSubclassesTests/CGSubclassesTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -415,6 +754,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E66FCC1190DFD0A00ECBBAD /* Build configuration list for PBXNativeTarget "CGSubclassesX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E66FCC2190DFD0A00ECBBAD /* Debug */,
+				2E66FCC3190DFD0A00ECBBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E66FCC4190DFD0A00ECBBAD /* Build configuration list for PBXNativeTarget "CGSubclassesXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E66FCC5190DFD0A00ECBBAD /* Debug */,
+				2E66FCC6190DFD0A00ECBBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2EFE2FAC18E653C7003CBAFD /* Build configuration list for PBXProject "CGSubclasses" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
