@@ -17,7 +17,6 @@
 		2E66FCC0190DFD0A00ECBBAD /* CGSubclassesXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E66FCBF190DFD0A00ECBBAD /* CGSubclassesXTests.m */; };
 		2E66FCC9190DFE3A00ECBBAD /* CGSubclassesX.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E66FCAC190DFD0A00ECBBAD /* CGSubclassesX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E66FCCA190E028200ECBBAD /* NSMutableArray+GRID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5F282190DE465007D7291 /* NSMutableArray+GRID.m */; };
-		2E66FCCC190EC6C700ECBBAD /* CGSubclassesX.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E66FCAC190DFD0A00ECBBAD /* CGSubclassesX.h */; };
 		2EF5F283190DE465007D7291 /* NSMutableArray+GRID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5F282190DE465007D7291 /* NSMutableArray+GRID.m */; };
 		2EF5F2C8190DFA81007D7291 /* CGSubclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFE2FB918E653C7003CBAFD /* CGSubclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EFE2FB518E653C7003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE2FB418E653C7003CBAFD /* Foundation.framework */; };
@@ -49,16 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2E66FCCB190EC6B200ECBBAD /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				2E66FCCC190EC6C700ECBBAD /* CGSubclassesX.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2EFE2FAF18E653C7003CBAFD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,7 +281,6 @@
 				2E66FC9A190DFD0A00ECBBAD /* Frameworks */,
 				2E66FC9B190DFD0A00ECBBAD /* Headers */,
 				2E66FC9C190DFD0A00ECBBAD /* Resources */,
-				2E66FCCB190EC6B200ECBBAD /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -761,6 +749,7 @@
 				2E66FCC3190DFD0A00ECBBAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E66FCC4190DFD0A00ECBBAD /* Build configuration list for PBXNativeTarget "CGSubclassesXTests" */ = {
 			isa = XCConfigurationList;
@@ -769,6 +758,7 @@
 				2E66FCC6190DFD0A00ECBBAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EFE2FAC18E653C7003CBAFD /* Build configuration list for PBXProject "CGSubclasses" */ = {
 			isa = XCConfigurationList;
